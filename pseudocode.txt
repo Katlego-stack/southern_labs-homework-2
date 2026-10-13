@@ -1,0 +1,8 @@
+BEGIN
+	INPUT pin
+	IF pin == stored_pin
+	    DISPLAY "Access granted"
+	ELSE
+	    DISPLAY "Access denied"
+	ENDIF
+END
